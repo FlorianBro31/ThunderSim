@@ -2,16 +2,24 @@
 # ThunderSim
 
 A maze/thunder simulator written in C using SDL2.</br>
-Works using the breadth-first search algorithm.
+Works using the breadth-first search algorithm.</br>
+Inspired by [this video](https://www.youtube.com/watch?v=akZ8JJ4gGLs).
+
+# How-To
+To build this project you will need to have the [SDL2 library](https://www.libsdl.org/download-2.0.php) installed.</br>
+
+* If installed, simply `cd` into the project and type `make`.
+* A binary named `thundersim` will be created, simply execute it with `./thundersim`.
+
 
 # Parameters
 
-You can modify the aspect of the generated maze/thunder with those 5 macros:</br>
-`WINDOW_WIDTH` to choose the width of the window</br>
-`WINDOW_HEIGHT` to choose the height of the window</br>
-`DIVISON` to divide the window according to the desired value</br>
-`P` to choose the probability of generating a up or down border</br>
-`Q` to choose the probability of generating a left or right border</br>
+You can modify the aspect of the generated maze/thunder with those 5 macros in the `.c` file:</br>
+`WINDOW_WIDTH` : choose the width of the window.</br>
+`WINDOW_HEIGHT` : choose the height of the window.</br>
+`DIVISON` : divide the window according to the desired value.</br>
+`P` : choose the probability of generating a up or down border.</br>
+`Q` : choose the probability of generating a left or right border.</br>
 
 # Exemples
 
