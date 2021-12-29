@@ -1,7 +1,7 @@
 
 # ThunderSim
 
-A maze/thunder simulator written in C.
+A maze/thunder simulator written in C.</br>
 Works using the breadth-first search algorithm.
 
 # Exemples
