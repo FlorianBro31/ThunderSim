@@ -44,7 +44,7 @@ int SolveMaze();
 void PrintGrid(int param);
 SDL_Rect* FillMazeBuffer(int *c);
 SDL_Rect* FillSolutionBuffer(int *c);
-//TODO: r to reload new maze, allow custom dimension
+//TODO: allow custom dimensions
 int main()
 {
 	if(SDL_Init(SDL_INIT_EVERYTHING)!=0)
