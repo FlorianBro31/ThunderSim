@@ -15,15 +15,15 @@
 
 #define EMPTY 0b0000
 #define UP    0b0001
-#define DOWN  0b0010			//		       1
-#define RIGHT 0b0100			//  	 ____________
-#define LEFT  0b1000			//		|			 |
-								//		|			 |
-typedef struct pixel			//	8	|	  0 	 |    4
-{							    //		|			 |
-	union Border				//		|____________|
-	{							//
-		uint8_t border;			//			   2
+#define DOWN  0b0010		
+#define RIGHT 0b0100			
+#define LEFT  0b1000			
+					
+typedef struct pixel			
+{							   
+	union Border
+	{							
+		uint8_t border;						   
 		struct
 		{
 			uint8_t up:1;
