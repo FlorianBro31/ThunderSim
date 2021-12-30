@@ -10,6 +10,7 @@ To build this project you will need to have the [SDL2 library](https://www.libsd
 
 * If installed, simply `cd` into the project and type `make`.
 * A binary named `thundersim` will be created, simply execute it with `./thundersim`.
+* Tap `r` to reload a new maze/thunder.
 
 
 # Parameters
